@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@handler/*": ["src/handler/*"],
+      "@libs/*": ["src/libs/*"],
+      "@helper/*": ["src/helper/*"],
+      "@slsConfig/*": ["src/serverless/*"]
+    }
+  }
+}
